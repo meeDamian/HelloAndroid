@@ -43,10 +43,26 @@ public class ImageAdapter extends BaseAdapter {
 	}
 	
 	// references to our images
-	private Integer[] mThumbIds = {
-			R.drawable.image_001, R.drawable.image_002, 
-			R.drawable.image_003, R.drawable.image_004, 
-			R.drawable.image_005, R.drawable.image_006, 
-			R.drawable.image_007, R.drawable.image_008
+	private Integer[] mThumbIds = { 
+			R.drawable.image2_001, R.drawable.image2_002, 
+			R.drawable.image2_003, R.drawable.image2_004, 
+			R.drawable.image2_005, R.drawable.image2_006, 
+			R.drawable.image2_007, R.drawable.image2_008,
+			R.drawable.image2_001, R.drawable.image2_002, 
+			R.drawable.image2_003, R.drawable.image2_004, 
+			R.drawable.image2_005, R.drawable.image2_006, 
+			R.drawable.image2_007, R.drawable.image2_008,
+			R.drawable.image2_001, R.drawable.image2_002, 
+			R.drawable.image2_003, R.drawable.image2_004, 
+			R.drawable.image2_005, R.drawable.image2_006, 
+			R.drawable.image2_007, R.drawable.image2_008,
+			R.drawable.image2_001, R.drawable.image2_002, 
+			R.drawable.image2_003, R.drawable.image2_004, 
+			R.drawable.image2_005, R.drawable.image2_006, 
+			R.drawable.image2_007, R.drawable.image2_008,
+			R.drawable.image2_001, R.drawable.image2_002, 
+			R.drawable.image2_003, R.drawable.image2_004, 
+			R.drawable.image2_005, R.drawable.image2_006, 
+			R.drawable.image2_007, R.drawable.image2_008
 	};
 }
