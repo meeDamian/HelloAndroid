@@ -1,65 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gridview"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:stretchColumns="1">
-    
-    <TableRow>
-        <TextView 
-            android:layout_column="1"
-            android:text="@string/open"
-            android:padding="3dip"/>
-        <TextView
-            android:text="@string/open_sc"
-            android:gravity="right"
-            android:padding="3dip" />            
-    </TableRow>
-    
-    <TableRow>
-        <TextView 
-            android:layout_column="1"
-            android:text="@string/save"
-            android:padding="3dip"/>
-        <TextView
-            android:text="@string/save_sc"
-            android:gravity="right"
-            android:padding="3dip" />            
-    </TableRow>
-    
-    <TableRow>
-        <TextView
-            android:layout_column="1"
-            android:text="@string/saveAs"
-            android:padding="3dip" />
-        <TextView
-            android:text="@string/saveAs_sc"
-            android:gravity="right"
-            android:padding="3dip" />
-    </TableRow>
-    
-    <View 
-        android:layout_height="2dip"
-        android:background="#ff909090"/>
-    
-    <TableRow>
-        <TextView
-            android:text="@string/eXs"
-            android:padding="3dip" />
-        <TextView
-            android:text="@string/import_string"
-            android:padding="3dip" />
-    </TableRow>
-    
-    <TableRow>
-        <TextView
-            android:text="@string/eXs"
-            android:padding="3dip" />
-        <TextView
-            android:text="@string/export_string"
-            android:padding="3dip" />
-        <TextView
-            android:text="@string/export_sc"
-            android:gravity="right"
-            android:padding="3dip" />
-    </TableRow>   
-</TableLayout>
+    android:columnWidth="90dp"
+    android:numColumns="auto_fit"
+    android:verticalSpacing="10dp"
+    android:horizontalSpacing="10dp"
+    android:stretchMode="columnWidth"
+    android:gravity="center"
+/>

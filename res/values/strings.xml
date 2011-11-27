@@ -2,20 +2,4 @@
 <resources>
     <string name="hello">Hejka! Some string resource</string>
     <string name="app_name">Hello, Android</string>
-    
-    <string name="open">Otfoosz...</string>
-    <string name="open_sc">Ctrl+O</string>
-    
-    <string name="save">Zapish...</string>
-    <string name="save_sc">Ctrl+S</string>
-    
-    <string name="saveAs">Zapish jako...</string>
-    <string name="saveAs_sc">Ctrl+Shift+S</string>
-    
-    <string name="eXs">X</string>
-    
-    <string name="import_string">Import...</string>
-    <string name="export_string">Export...</string>
-    <string name="export_sc">Ctrl+E</string>
-    
 </resources>
