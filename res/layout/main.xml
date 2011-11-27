@@ -1,57 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_height="fill_parent"
+    android:stretchColumns="1">
     
-    <LinearLayout
-      android:id="@+id/flag"
-      android:orientation="horizontal"
-      android:layout_width="fill_parent"
-      android:layout_height="200px"
-      android:layout_weight="1">
-      <TextView
-          android:background="#aa0000"
-          android:layout_width="wrap_content"
-          android:layout_height="fill_parent"
-          android:layout_weight="1"/>
-      <TextView
-          android:background="#aaaa00"
-          android:layout_width="wrap_content"
-          android:layout_height="fill_parent"
-          android:layout_weight="1"/>
-      <TextView
-          android:background="#00aa00"
-          android:layout_width="wrap_content"
-          android:layout_height="fill_parent"
-          android:layout_weight="1"/>      
- 	</LinearLayout>
-  
-	<TextView 
-	    android:id="@+id/label"
-	    android:layout_width="fill_parent"
-	    android:layout_height="wrap_content"
-	    android:layout_below="@id/flag"
-	    android:text="@string/question" 
-	    android:textSize="20pt"/>
-	<EditText 
-        android:id="@+id/entry"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:background="@android:drawable/editbox_background"
-        android:layout_below="@id/label"
-        android:text="@string/placeholder"/>
-    <Button 
-        android:id="@+id/ok"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/entry"
-        android:layout_alignParentLeft="true"
-        android:layout_marginRight="10dip"
-        android:text="@string/ok"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/ok"
-        android:layout_alignTop="@id/ok"
-        android:text="@string/cancel"/>
-</RelativeLayout>
+    <TableRow>
+        <TextView 
+            android:layout_column="1"
+            android:text="@string/open"
+            android:padding="3dip"/>
+        <TextView
+            android:text="@string/open_sc"
+            android:gravity="right"
+            android:padding="3dip" />            
+    </TableRow>
+    
+    <TableRow>
+        <TextView 
+            android:layout_column="1"
+            android:text="@string/save"
+            android:padding="3dip"/>
+        <TextView
+            android:text="@string/save_sc"
+            android:gravity="right"
+            android:padding="3dip" />            
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="@string/saveAs"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/saveAs_sc"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+    
+    <View 
+        android:layout_height="2dip"
+        android:background="#ff909090"/>
+    
+    <TableRow>
+        <TextView
+            android:text="@string/eXs"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/import_string"
+            android:padding="3dip" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+            android:text="@string/eXs"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/export_string"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/export_sc"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>   
+</TableLayout>
