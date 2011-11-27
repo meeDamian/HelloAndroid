@@ -2,4 +2,8 @@
 <resources>
     <string name="hello">Hejka! Some string resource</string>
     <string name="app_name">Hello, Android</string>
+    <string name="question">Co to za kraj?</string>
+    <string name="placeholder">Tu wpisz nazwę kraju...</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
 </resources>
